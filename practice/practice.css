@@ -1,0 +1,29 @@
+
+.click{
+    height: 30px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+}
+ .click_me{
+    height: 30px;
+    width: 150px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+ }
+
+ .click_here{
+    height: 30px;
+    width: 170px ;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+ }
+
+
+ .lets_style{
+    font-size: 2rem;
+    font-weight: bold;
+ }

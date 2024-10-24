@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function_Array</title>
+</head>
+<body>
+    
+
+ <script>
+
+    //practise exercise 1
+
+
+let studentMarks = [80, 98, 90, 93, 92, 89, 95, 94, 99, 87, 96,];
+
+ let finalCount = studentMarks.filter((studentMarks) => {
+    
+    return studentMarks > 90;
+ });
+
+        console.log(finalCount);
+
+
+        // parctise exercise 2
+
+        let n = prompt("Enter your Number");
+        let arr = [];
+        for (let i = 1; i <= n; i++) {
+            arr [i - 1] = i ;
+        }
+        console.log(arr);
+        
+        let sum = arr.reduce((prev, curr) => {
+            
+            return prev + curr;
+
+        });
+
+        console.log("sum =", sum);
+
+        let mul = arr.reduce((prev, curr) => {
+            
+            return prev * curr;
+
+        });
+
+        console.log("mul =", mul);
+
+        
+ </script>
+</body>
+</html>

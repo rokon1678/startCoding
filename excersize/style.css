@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.changeallcolor{
+    background-color: #000000;
+    color: #fff;
+}
+
+#modeChange{
+    margin: 10rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.6rem;
+   
+}
+
+
+
+#modeChange:hover{
+    background-color: #aafdfa;
+    
+}

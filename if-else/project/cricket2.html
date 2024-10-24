@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket</title>
+    <style>
+        body{
+         text-align: center;
+         background-color: #0c5316;
+        }
+        #Make_it_more_level_up{
+          background-image: linear-gradient(to right, red, white, red);
+        }
+        .cricket{
+            background-image: linear-gradient(to right, green, red, green);
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="Make_it_more_level_up">MY BUDDY LET'S <img src="cricket feturs.jpeg" alt=""> PLAY CRICKET</h1>
+<div class="cricket">
+    <button onclick="
+   
+    let CrRandom = Math.random() * 3;
+
+    let PcChoice;
+    if (CrRandom > 0 && CrRandom <= 1){
+        PcChoice = 'Bat';
+        // console.log('you have chosen Bat');
+    } else if (CrRandom >1 && CrRandom <=2) {
+        PcChoice = 'Ball';
+        // console.log('you have chosen Ball');
+    } else {
+         PcChoice = 'Stump';
+        // console.log('you have chosen Stump');
+    }
+
+ 
+
+    let mainScore;
+    if (PcChoice === 'Ball') {
+         mainScore = 'You won';
+        
+    } else if (PcChoice === 'Bat') {
+         mainScore = `This is Draw`;
+    } else if (PcChoice === 'Stump') {
+         mainScore = 'you lost';
+    }
+    
+    alert(` you have chosen Ball.  oposit team has chosen ${PcChoice}  and   ${mainScore}`); "><img src="crickte bat.jpeg" alt=""></button>
+
+
+
+    <button onclick="
+   
+    let CriRandom = Math.random() * 3;
+
+    let ComputerChoice;
+    if (CriRandom > 0 && CriRandom <= 1){
+        ComputerChoice = 'Bat';
+        // console.log('you have chosen Bat');
+    } else if (CriRandom >1 && CriRandom <=2) {
+        ComputerChoice = 'Ball';
+        // console.log('you have chosen Ball');
+    } else {
+        ComputerChoice = 'Stump';
+        // console.log('you have chosen Stump');
+    }
+
+ 
+
+    let finalScore;
+    if (ComputerChoice === 'Ball') {
+        finalScore = 'This is Draw';
+        
+    } else if (ComputerChoice === 'Bat') {
+        finalScore = 'you lost';
+    } else if (ComputerChoice === 'Stump') {
+        finalScore = 'you won';
+    }
+    
+    alert(` you have chosen Ball.  oposit team has chosen ${ComputerChoice}  and   ${finalScore}`);"><img src="cricket ball.jpeg" alt=""></button>
+
+
+    <button onclick="
+   
+    let CricketRandom = Math.random() * 3;
+
+    let DeviceChoice;
+    if (CricketRandom > 0 && CricketRandom <= 1){
+        DeviceChoice = 'Bat';
+        // console.log('you have chosen Bat');
+    } else if (CricketRandom >1 && CricketRandom <=2) {
+        DeviceChoice = 'Ball';
+        // console.log('you have chosen Ball');
+    } else {
+        DeviceChoice = 'Stump';
+        // console.log('you have chosen Stump');
+    }
+
+ 
+
+    let finalresult;
+    if (DeviceChoice === 'Ball') {
+        finalresult = 'You won';
+        
+    } else if (DeviceChoice === 'Bat') {
+        finalresult = 'You lost';
+    } else if (DeviceChoice === 'Stump') {
+        finalresult = `This is Draw`;
+    }
+    
+    alert(` You have chosen Stump.  Oposit team has chosen ${DeviceChoice}  and   ${finalresult}`);"><img src="cricket stumps.png" alt=""></button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="claculator.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>This is a calculator</h1>
+    <div class="first_calculator_type">
+       <input type="text" class="calculator_screan" readonly>
+        <div class="table_lear">
+      <button class="button" onclick="calcu_display =''; document.querySelector('.calculator_screan').value = calcu_display;">C</button>
+      <button class="button" onclick="calcu_display = calcu_display + '1'; document.querySelector('.calculator_screan').value = calcu_display;">1</button>
+      <button class="button" onclick="calcu_display = calcu_display + '2'; document.querySelector('.calculator_screan').value = calcu_display;">2</button>
+      <button class="button" onclick="calcu_display = calcu_display + '+'; document.querySelector('.calculator_screan').value = calcu_display;">+</button>
+      <button class="button" onclick="calcu_display = calcu_display + '3'; document.querySelector('.calculator_screan').value = calcu_display;">3</button>
+      <button class="button" onclick="calcu_display = calcu_display + '4'; document.querySelector('.calculator_screan').value = calcu_display;">4</button>
+      <button class="button" onclick="calcu_display = calcu_display + '-'; document.querySelector('.calculator_screan').value = calcu_display;">-</button>
+      <button class="button" onclick="calcu_display = calcu_display + '5'; document.querySelector('.calculator_screan').value = calcu_display;">5</button>
+      <button class="button" onclick="calcu_display = calcu_display + '6'; document.querySelector('.calculator_screan').value = calcu_display;">6</button>
+      <button class="button" onclick="calcu_display = calcu_display + '*'; document.querySelector('.calculator_screan').value = calcu_display;">*</button>
+      <button class="button" onclick="calcu_display = calcu_display + '7'; document.querySelector('.calculator_screan').value = calcu_display;">7</button>
+      <button class="button" onclick="calcu_display = calcu_display + '8'; document.querySelector('.calculator_screan').value = calcu_display;">8</button>
+      <button class="button" onclick="calcu_display = calcu_display + '/'; document.querySelector('.calculator_screan').value = calcu_display;">/</button>
+      
+      
+      <button class="button" onclick="
+      let result = eval(calcu_display);
+      calcu_display = result ; document.querySelector('.calculator_screan').value = calcu_display;">=</button>
+
+
+      <button class="button" onclick="calcu_display = calcu_display + '9'; document.querySelector('.calculator_screan').value = calcu_display;">9</button>
+      <button class="button" onclick="calcu_display = calcu_display + '0'; document.querySelector('.calculator_screan').value = calcu_display;">0</button>
+      <button class="button" onclick="calcu_display = calcu_display + '.'; document.querySelector('.calculator_screan').value = calcu_display;">.</button>
+     
+    
+    </div>
+    </div>
+
+    <h1 class="header">This is a calculator</h1>
+    <div class="mine_calculator">
+      <input type="text" id="quantity_display" readonly>
+      
+      <div class="calculator_count">
+        <button class=" button_s" onclick="count_display =''; document.querySelector('#quantity_display').value = count_display;">C</button>
+        <button class=" button_s" onclick="count_display = count_display + '1'; document.querySelector('#quantity_display').value = count_display;">1</button>
+        <button class=" button_s" onclick="count_display = count_display + '2'; document.querySelector('#quantity_display').value = count_display;">2</button>
+        <button class=" button_s" onclick="count_display = count_display + '+'; document.querySelector('#quantity_display').value = count_display;">+</button>
+        <button class=" button_s" onclick="count_display = count_display + '3'; document.querySelector('#quantity_display').value = count_display;">3</button>
+        <button class=" button_s" onclick="count_display = count_display + '4'; document.querySelector('#quantity_display').value = count_display;">4</button>
+        <button class=" button_s" onclick="count_display = count_display + '-'; document.querySelector('#quantity_display').value = count_display;">-</button>
+        <button class=" button_s" onclick="count_display = count_display + '5'; document.querySelector('#quantity_display').value = count_display;">5</button>
+        <button class=" button_s" onclick="count_display = count_display + '6'; document.querySelector('#quantity_display').value = count_display;">6</button>
+        <button class=" button_s" onclick="count_display = count_display + '*'; document.querySelector('#quantity_display').value = count_display;">*</button>
+        <button class=" button_s" onclick="count_display = count_display + '7'; document.querySelector('#quantity_display').value = count_display;">7</button>
+        <button class=" button_s" onclick="count_display = count_display + '8'; document.querySelector('#quantity_display').value = count_display;">8</button>
+        <button class=" button_s" onclick="count_display = count_display + '/'; document.querySelector('#quantity_display').value = count_display;">/</button>
+        <button class=" button_s" onclick="count_display = eval(count_display); document.querySelector('#quantity_display').value = count_display;">=</button>
+        <button class=" button_s" onclick="count_display = count_display + '9'; document.querySelector('#quantity_display').value = count_display;">9</button>
+        <button class=" button_s" onclick="count_display = count_display + '0'; document.querySelector('#quantity_display').value = count_display;">0</button>
+        <button class=" button_s" onclick="count_display = count_display + '.'; document.querySelector('#quantity_display').value = count_display;">.</button>
+      </div>
+
+    </div>
+
+
+    <script src="calculator.js">
+
+    </script>
+</body>
+</html>

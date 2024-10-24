@@ -1,0 +1,21 @@
+/* .para{ 
+    font-size: 2rem;
+    color: #f3f7fa;
+}
+
+.changed{
+    background-color: black;
+} */
+
+
+.bod{
+    background-color: black;
+    color: white;
+}
+
+.box{
+    height: 30vh;
+    width: 30vh;
+    background-color: aqua;
+    border: 1px solid black;
+}

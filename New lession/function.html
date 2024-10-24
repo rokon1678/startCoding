@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    
+
+
+ <script>
+
+    // just a simple and normal perametar function
+
+
+function sum(a, b) {
+     total = a + b;
+    console.log(total);
+
+}
+
+sum(35, 35);
+
+// Arrow function is a short writing form of function
+
+const arrowSum = (x, y, z) =>{
+    console.log(x + y + z);
+}
+ arrowSum(34, 45, 56);
+
+ const arrowmult = ( r, m) =>{
+    console.log("This is the multiplication of (r * m) =",r * m);
+ }
+
+ arrowmult( 35, 6);
+
+
+ // return value
+
+ function Sum (a, b) {
+    su = a + b;
+    return su;
+   
+ }
+
+ let final = Sum(43, 65);
+ console.log(final);
+
+
+ // forEach array use function
+
+ let number = ["Dhaka", "Rajshahi","Rangpur","Khulna","Shylet"];
+
+ number.forEach( (val, ind, arr) => {
+    console.log(val, ind, arr);
+ })
+
+
+
+
+ </script>
+</body>
+</html>

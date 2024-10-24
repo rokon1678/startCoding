@@ -1,0 +1,96 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+
+}
+
+body{
+    /* display: flex; */
+     justify-content: center; 
+     background-color: #000000;
+  
+}
+ 
+ 
+h1{
+    text-align: center;
+}
+.first_calculator_type{
+     /* height: 500px;  */
+     width: 20%;
+    border: 2px solid black;
+    border-color: rgba(164, 164, 164, 0.2);
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    margin: 0px 600px; 
+    /* display: flex;
+    /* /* justify-content: center;
+    align-items: center; */
+ }  
+
+   
+
+.calculator_screan{
+    font-size: 45px;
+   
+    width: 90%;
+    border: 2px solid black;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px; 
+     /* position: relative;
+    left: 14px;
+    top: 15px;  */
+
+  margin: 15px 14px;
+} 
+
+ .table_lear{
+    /* height: 83%;  */
+    width: 90%; 
+     /* border: 1px solid black; */
+    position: relative;
+    left: 14px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+ .button{
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+    
+} 
+
+
+.mine_calculator{
+   
+    width: 15%;
+    border: 1px solid rgb(132, 132, 132);
+    border-radius: 5px;
+}
+
+#quantity_display{
+    width: 90%;
+    border: 1px solid black;
+    margin: 10px 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.calculator_count{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.button_s{
+    height: 60px;
+    width: 60px;
+    margin: 2px;
+
+}
+.header{
+    text-align: left;
+}

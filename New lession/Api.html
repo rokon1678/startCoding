@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Api.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="cntainer">
+        <div class="heading">
+            <h2>Currency Converter</h2>
+        </div>
+        <form action="">
+            <div class="select_input">
+                <p>Enter Your Amount</p>
+                <input type="text" name="" id="input">
+            </div>
+            <div class="select_list_container">
+            <div class="select_lis">
+                <p>From</p>
+                <div class="slected">
+                <img src="https://flagsapi.com/US/flat/64.png">
+                <select name="" class="select_list">
+                    <option value="USA">USD</option>
+                    <option value="BDT">BDT</option>
+                    <option value="INR">INR</option> 
+                    <option value="EURO">EURO</option>
+                    <option value="AUD">AUD</option>
+                </select></div>
+               
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="select_lis">
+               <div class="to"> <p>To</p></div>
+               <div class="slected">
+                <img src="https://flagsapi.com/BD/flat/64.png">
+                <select name="" class="select_list">
+                    <option value="BDT">BDT</option>
+                    <option value="USD">USD</option>
+                    <option value="INR">INR</option>
+                    <option value="EURO">EURO</option>
+                    <option value="AUD">AUD</option>
+
+                </select></div>
+            </div></div>
+            <P class="msg">1USD = 119BDT</P>
+            <div class="button">
+            <button id="btn">Get Exchenge Rate</button>
+        </div>
+        </form>
+    </div>
+
+   <script src="codes.js"></script>
+    <script src="Api.js"></script>
+</body>
+</html>

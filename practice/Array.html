@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    
+
+    <script>
+
+    //     // practice 1
+    //     let marks =[85,97,44,37,76,60];
+    //     let sum = 0;
+
+    //     for(let val of marks) {
+    //         sum += val;
+    //     }
+    //    console.log(`total markes = ${sum}`);
+    //    let avg = sum / marks.length;
+    //    console.log(`your avarage marks is = ${avg}`);
+
+       //practice 2
+
+    //    let price_items = [250, 645, 300, 900, 50];
+    //    let i = 0;
+
+    //    for (let v = 0; v < price_items.length; v++) {
+     
+    //        let offer = price_items[v] / 10;
+    //        price_items[v] -= offer;
+    //    }
+
+    //    console.log (price_items);
+
+        //practice == 3, taskA
+
+        
+
+    let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+
+    let taskA = companies.shift();
+    console.log(companies);
+    console.log(`Removed`, taskA);
+    
+
+        //practice == 3, taskB
+
+    let taskB = companies.splice(2, 1, "Ola");
+    console.log(companies);
+
+    //practice == 3, taskC
+
+    let taskC = companies.push("Amazon");
+    console.log(companies);
+
+    </script>
+</body>
+</html>

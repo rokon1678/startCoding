@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>begin of javascript</title>
+</head>
+<body>
+ <!-- <button>click</button>
+
+ <button class="click_me" onclick="alert('this is so incredible If you chose this bag you can contact us[02489749]')">Add to Bag</button>
+ <button id="click_me" onclick="alert('your wishlist is here. Thanks for open your wishlist')">❤️WISHLIST</button>
+<p>Lorem ipsum dolor sit amet.</p> -->
+
+
+
+
+<button class="click" onclick="cart_summary=cart_summary + 1; document.querySelector('.lets_style').innerText = `Your Bag has ${cart_summary} items`;">Add to Bag</button>
+<button class="click_me" onclick="cart_summary=cart_summary - 1; document.querySelector('.lets_style').innerText = `Your Bag has ${cart_summary} items`;">Move  To Wishlist</button>
+    <button class="click_here" onclick="cart_summary=cart_summary + 2; document.querySelector('.lets_style').innerText = `Your Bag has ${cart_summary} items`;">Add 1+1 Sale item</button>
+    <p class="lets_style"></p>
+
+
+   <script src="index.js">
+  
+   </script>
+</body>
+</html>

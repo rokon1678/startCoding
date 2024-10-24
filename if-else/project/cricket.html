@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Cricket Game</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Buddy Let's <img src="cricket feturs.jpeg" alt="cricket fetuers">Play Cricket </h1>
+    <button onclick="
+
+        assignAble () ;
+        let resultMsg;
+        if (computerChoice === 'Ball') {
+            resultMsg = 'user won';
+        } else if (computerChoice === 'Bat') {
+            resultMsg = `It's a tie`;
+        } else if (computerChoice === 'Stump') {
+            resultMsg = 'coumputer has won';
+        }
+
+        alert(`you have chosen Bat. computer choice the ${computerChoice} and ${resultMsg}`);"><img src="crickte bat.jpeg" alt=""></button>
+
+
+
+
+    <button onclick="
+
+        assignAble () ;
+        
+        let finalSolution;
+        if (computerChoice === 'Ball') {
+            finalSolution = `It's a tie`;
+        } else if (computerChoice === 'Bat') {
+            finalSolution = 'coumputer has won';
+        } else if (computerChoice === 'Stump') {
+            finalSolution = 'user won';
+        }
+
+        alert(`you have chosen Ball. computer choice the ${computerChoice} and ${finalSolution}`); "><img src="cricket ball.jpeg" alt=""></button>
+
+
+
+
+    <button onclick="
+
+        assignAble () ;
+        
+        let finalScore;
+        if (computerChoice === 'Ball') {
+            finalScore = 'coumputer has won';
+        } else if (computerChoice === 'Bat') {
+            finalScore = 'user won';
+        } else if (computerChoice === 'Stump') {
+            finalScore = `It's a tie`;
+        }
+
+        alert(`you have chosen Ball. computer choice the ${computerChoice} and ${finalScore}`); "><img src="cricket stumps.png" alt=""></button>
+
+
+
+    <script src="cricket.js">
+
+    </script>
+</body>
+</html>
