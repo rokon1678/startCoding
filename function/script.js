@@ -8,12 +8,16 @@ myFunction('Rokon', 20, 'Student')
 
 // crite a subscribed button
 
-function MyFunction () {
+function MyFunction() {
     let checke = document.querySelector("#subscribed").innerHTML= "Subscribed";
-    alert = 'Subscribed';
+    alert  ('Subscribed');
    
     console.log(checke);
-   
+    for (let i = 0; i < 10; i++){
+        console.log( "I subscribed")
+      
+    }
+    
     
 }
 
