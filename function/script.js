@@ -10,15 +10,15 @@ myFunction('Rokon', 20, 'Student')
 
 function MyFunction() {
     let checke = document.querySelector("#subscribed").innerHTML= "Subscribed";
-    alert  ('Subscribed');
    
+    alert  ('Subscribed');
     console.log(checke);
     for (let i = 0; i < 10; i++){
         console.log( "I subscribed")
       
     }
     
-    
+  
 }
 
 let identify = document.querySelector("#subscribed");
