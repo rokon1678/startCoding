@@ -1,5 +1,5 @@
 // let's drive into function
-
+/*
 function myFunction (FullName, age, qualification ) {
     console.log("Hello I am " + FullName + ' my age is ' + age + ' I am ' + qualification);
 }
@@ -28,4 +28,4 @@ identify.addEventListener ('click', MyFunction);
 
 (function (message){
     console.log(' I need ' +  message )
-})("your help");
+})("your help");*/
