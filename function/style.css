@@ -18,3 +18,65 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+#image{
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Dropdown menu  */
+
+#btn{
+    padding: 20px;
+    background-color: rgb(20, 182, 246);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#last_div{
+   display: none;
+   background-color: #f1f1f1;
+   position: absolute;
+   border: none;
+   border-radius: 5px;
+}
+
+#last_div a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: green;
+    line-height: 35px;
+    width: 149px;
+    
+
+}
+
+
+/* icon drop down  */
+
+#icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#consider_list{
+background-color: #f1f1f1;
+position: absolute;
+display: none;
+    
+}
+
+#consider_list a{
+    display: block;
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+
+}
