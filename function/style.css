@@ -1,3 +1,4 @@
+
 #subscribed{
     background-color: red;
     padding: 20px 35px;
@@ -78,5 +79,5 @@ display: none;
     display: block;
     text-decoration: none;
     color: rgb(41, 39, 39);
-
+    font-size: 2rem;
 }
