@@ -83,3 +83,28 @@ ic.addEventListener("click", function(){
 // login form
 
 
+
+  let name = document.querySelector("#name").value;
+  let email = document.querySelector("#email").value;
+  let fp = document.querySelector("#first_password").value;
+  let lp = document.querySelector("#last_password").value;
+  
+  let form = document.querySelector("#form");
+
+
+form.addEventListener("submit", function(){
+  if(name === '' || email === '' || fp ===''|| lp===''){
+      alert("all files are mendetory");
+      return false;
+  }else{
+    return true;
+  }
+
+});
+
+  
+  
+
+
+
+

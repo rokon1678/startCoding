@@ -90,7 +90,8 @@ form{
     display: block;
     background-color: rgb(174, 174, 174);
     width: 170px;
-   
+   position: relative;
+   left: 200px;
 }
 
 input{
@@ -98,5 +99,11 @@ input{
     line-height: 30px;
     margin: 10px 0px ;
     border: none;
+}
+
+#submit{
+    font-size: 1.3rem;
+    padding: 10px;
+    margin:  0px 43px;
 }
 
