@@ -29,3 +29,21 @@ identify.addEventListener ('click', MyFunction);
 (function (message){
     console.log(' I need ' +  message )
 })("your help");*/
+
+
+let a = document.querySelector("#div1");
+let b = 0;
+let c = document.querySelector("#div2");
+
+a.addEventListener("click", function(){
+    if(b === 0){
+        a.innerHTML = " Do not click me";
+        c.style.display = "block";
+        console.log("I'm working");
+        b = 1;
+    }else {
+        a.innerHTML = "click me";
+        c.style.display = "none";
+        b = 0;
+    }
+})
