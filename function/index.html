@@ -48,17 +48,17 @@
 <!-- login form -->
 
 
-<form action="done.html" id="form">
+<form action="done.html" id="form" onsubmit=" return myFunction()">
   
-<input type="text"placeholder="FullName" id="name">
+<input type="text"placeholder="FullName*" id="name">
 
-<input type="email"placeholder="Email" id="email">
+<input type="email"placeholder="Email*" id="email" required>
 
-<input type="password" placeholder="password" id="first_password">
+<input type="password" placeholder="password*" id="first_password">
 
-<input type="password" placeholder="Confirm password" id="last_password">
+<input type="password" placeholder="Confirm password*" id="last_password">
 
-<input type="submit" name="login" id="submit">
+<input type="submit" value="get submit" id="get_submit">
 
 
 

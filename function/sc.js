@@ -84,23 +84,31 @@ ic.addEventListener("click", function(){
 
 
 
+  
+  
+
+
+
+ function myFunction(){
   let name = document.querySelector("#name").value;
   let email = document.querySelector("#email").value;
   let fp = document.querySelector("#first_password").value;
   let lp = document.querySelector("#last_password").value;
   
-  let form = document.querySelector("#form");
-
-
-form.addEventListener("submit", function(){
-  if(name === '' || email === '' || fp ===''|| lp===''){
+  if(name==""|| email==""|| fp ==""|| lp==""){
       alert("all files are mendetory");
       return false;
-  }else{
+  }else if(fp!=lp){
+    alert("please Enter same password");
+    return false;
+  }else if(fp.length < 5 ||fp.length > 5){
+    alert("Password must be minimum 5 digite");
+    return false;
+  } else{
     return true;
   }
 
-});
+};
 
   
   

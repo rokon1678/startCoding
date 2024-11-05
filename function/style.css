@@ -89,7 +89,7 @@ display: none;
 form{
     display: block;
     background-color: rgb(174, 174, 174);
-    width: 170px;
+    width: 166px;
    position: relative;
    left: 200px;
 }
@@ -101,9 +101,9 @@ input{
     border: none;
 }
 
-#submit{
+#get_submit{
     font-size: 1.3rem;
     padding: 10px;
-    margin:  0px 43px;
+    margin:  0px 28px;
 }
 
