@@ -1,0 +1,1 @@
+let shape = document.querySelector("#middle");
