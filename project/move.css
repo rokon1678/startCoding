@@ -15,3 +15,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#center{
+    height: 170px;
+    width: 370px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
