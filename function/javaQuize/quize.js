@@ -11,24 +11,24 @@ as1.addEventListener("click", function(){
   if(check === 0 ) {
     as1.style.color = "white";
     as1.style.backgroundColor = "red";
-    as1.style.border = "none";
+    as1.style.border = "";
     //as2
-    as2.style.color = "white";
-    as2.style.backgroundColor = "green";
-    as2.style.border = "none";
+    as2.style.color = "";
+    as2.style.backgroundColor = "";
+    as2.style.border = "";
 
     //as3
-    as3.style.color = "white";
-    as3.style.backgroundColor = "red";
-    as3.style.border = "none";
+    as3.style.color = "";
+    as3.style.backgroundColor = "";
+    as3.style.border = "";
 
     //as4
-    as4.style.color = "white";
-    as4.style.backgroundColor = "red";
-    as4.style.border = "none";
+    as4.style.color = "";
+    as4.style.backgroundColor = "";
+    as4.style.border = "";
 
-    next.style.display = "block";
-    // console.log("I am working");
+    next.style.display = "none";
+    console.log("I am working");
    check = 1;
   } else{
     as1.style.color = "";
@@ -44,31 +44,31 @@ as1.addEventListener("click", function(){
 
 as2.addEventListener("click", function(){
     if(check === 0 ) {
-      as1.style.color = "white";
-      as1.style.backgroundColor = "red";
-      as1.style.border = "none";
+      as1.style.color = "";
+      as1.style.backgroundColor = "";
+      // as1.style.border = "";
       //as2
       as2.style.color = "white";
       as2.style.backgroundColor = "green";
-      as2.style.border = "none";
+      // as2.style.border = "";
   
       //as3
-      as3.style.color = "white";
-      as3.style.backgroundColor = "red";
-      as3.style.border = "none";
+      as3.style.color = "";
+      as3.style.backgroundColor = "";
+      // as3.style.border = "";
   
       //as4
-      as4.style.color = "white";
-      as4.style.backgroundColor = "red";
-      as4.style.border = "none";
+      as4.style.color = "";
+      as4.style.backgroundColor = "";
+      // as4.style.border = "";
   
       next.style.display = "block";
-      // console.log("I am working");
+      console.log("I am working");
      check = 1;
     } else{
-      as1.style.color = "";
-      as1.style.backgroundColor = "";
-      as1.style.border = "";
+      as2.style.color = "";
+      as2.style.backgroundColor = "";
+      // as2.style.border = "";
       check = 0;
     }
   
@@ -79,31 +79,31 @@ as2.addEventListener("click", function(){
   
 as3.addEventListener("click", function(){
     if(check === 0 ) {
-      as1.style.color = "white";
-      as1.style.backgroundColor = "red";
-      as1.style.border = "none";
+      as1.style.color = "";
+      as1.style.backgroundColor = "";
+      // as1.style.border = "";
       //as2
-      as2.style.color = "white";
-      as2.style.backgroundColor = "green";
-      as2.style.border = "none";
+      as2.style.color = "";
+      as2.style.backgroundColor = "";
+      // as2.style.border = "";
   
       //as3
       as3.style.color = "white";
       as3.style.backgroundColor = "red";
-      as3.style.border = "none";
-  
+      // as3.style.border = "";
+  check = 1;
       //as4
-      as4.style.color = "white";
-      as4.style.backgroundColor = "red";
-      as4.style.border = "none";
+      as4.style.color = "";
+      as4.style.backgroundColor = "";
+      // as4.style.border = "";
   
-      next.style.display = "block";
-      // console.log("I am working");
-     check = 1;
+      next.style.display = "none";
+      console.log("I am working");
+     
     } else{
-      as1.style.color = "";
-      as1.style.backgroundColor = "";
-      as1.style.border = "";
+      as3.style.color = "";
+      as3.style.backgroundColor = "";
+      as3.style.border = "";
       check = 0;
     }
   
@@ -112,35 +112,43 @@ as3.addEventListener("click", function(){
 
   //reapit4
 
+
   
 as4.addEventListener("click", function(){
     if(check === 0 ) {
-      as1.style.color = "white";
-      as1.style.backgroundColor = "red";
-      as1.style.border = "none";
+      as1.style.color = "";
+      as1.style.backgroundColor = "";
+      as1.style.border = "";
       //as2
-      as2.style.color = "white";
-      as2.style.backgroundColor = "green";
-      as2.style.border = "none";
+      as2.style.color = "";
+      as2.style.backgroundColor = "";
+      as2.style.border = "";
   
       //as3
-      as3.style.color = "white";
-      as3.style.backgroundColor = "red";
+      as3.style.color = "";
+      as3.style.backgroundColor = "";
       as3.style.border = "none";
   
       //as4
       as4.style.color = "white";
       as4.style.backgroundColor = "red";
-      as4.style.border = "none";
+      as4.style.border = "";
   
-      next.style.display = "block";
+      next.style.display = "none";
       // console.log("I am working");
      check = 1;
     } else{
-      as1.style.color = "";
-      as1.style.backgroundColor = "";
-      as1.style.border = "";
+      as4.style.color = "";
+      as4.style.backgroundColor = "";
+      as4.style.border = "";
       check = 0;
     }
   
+  })
+
+
+  next.addEventListener('click', function(){
+
+    window.location.replace('http://127.0.0.1:5500/start%20html/Javascript/function/javaQuize/question2.html');
+
   })
