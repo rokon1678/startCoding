@@ -1,0 +1,35 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#counter_container{
+    height: 40%;
+    width: 50%;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 2% 0% 0% 0%;
+
+}
+
+p{
+    font-size: 4rem;
+    font-family: monospace;
+}
+
+.btn{
+    padding: 1px 50px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
