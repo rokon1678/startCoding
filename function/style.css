@@ -126,3 +126,22 @@ just checke   */
     color: white;
     display: none;
 } 
+
+
+#p{
+    overflow: hidden;
+    animation:animated 5s 1s  linear  infinite ;
+    
+}
+
+@keyframes animated {
+    0%{
+        transform: translate(0px, 0px);
+        overflow: hidden;
+    }
+
+    100%{
+        transform: translate(1500px, 0px);
+        overflow: hidden;
+    }
+}
