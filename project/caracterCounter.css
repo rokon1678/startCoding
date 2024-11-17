@@ -1,0 +1,44 @@
+#counterContainer{
+    height: 300px;
+    width: 50%; 
+    background-color: pink;
+    /* margin: 50% 50%; */
+    transform: translate(50%, 50%);
+    border-radius: 5px;
+
+}
+
+#mainHead{
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-family: fantasy;
+}
+
+#counterText{
+    width: 80%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+.cunting1{
+    font-size: 1rem;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    display: inline-block;
+    
+}
+
+.cunting2{
+    font-size: 1rem;
+    position: relative;
+    top: 10%;
+    right: -60% ;
+    display: inline-block;
+    
+}
