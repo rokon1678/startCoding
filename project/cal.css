@@ -1,0 +1,28 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#calculator-container{
+    height: 60%;
+    width: 20%;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -40%);
+}
+
+#calCounter{
+    display: block;
+   margin: 5% 2% ;
+   font-size: 1.5rem;
+   padding: 5% 0%;
+}
+
+.btn{
+    /* display: block; */
+    padding: 6%;
+    margin: 2% 2% 0% 5.5%;
+}
