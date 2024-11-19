@@ -1,4 +1,4 @@
-const btnC = document.querySelector("#btn5");
+const btnC = document.querySelector("#btnC");
 const btn1 = document.querySelector("#btn1");
 const btn2 = document.querySelector("#btn2");
 const btn3 = document.querySelector("#btn3");
@@ -71,7 +71,7 @@ btn9.addEventListener("click", (nine) => {
 
 });
 
-btn10.addEventListener("click", (zero) => {
+btn10.addEventListener("click", (ten) => {
     screen.value += `${'0'}`;
     console.log("I am working");
 
@@ -89,11 +89,11 @@ btn12.addEventListener("click", (twelve) => {
 
 });
 
-// btn13.addEventListener("click", (therteen) => {
-//     screen.value += `${'.'}`;
-//     console.log("I am working");
+btn13.addEventListener("click", (therteen) => {
+    screen.value += `${'.'}`;
+    console.log("I am working");
 
-// });
+});
 
 btn14.addEventListener("click", (fourteen) => {
     screen.value += `${'*'}`;
@@ -107,16 +107,16 @@ btn15.addEventListener("click", (fifteen) => {
 
 });
 
-// btn16.addEventListener("click", (sixteen) => {
-//     screen.value += `${'='}`;
-//     console.log("I am working");
+btn16.addEventListener("click", (sixteen) => {
+    screen.value = `${eval(screen.value)}`;
+    console.log("I am working");
 
-// });
+});
 
-// btnC.addEventListener("click", (one) => {
-//     screen.value += `${'1'}`;
-//     console.log("I am working");
+btnC.addEventListener("click", (C) => {
+    screen.value = `${''}`;
+    console.log("I am working");
 
-// });
+});
 
 
