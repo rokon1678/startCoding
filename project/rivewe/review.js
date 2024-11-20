@@ -16,4 +16,5 @@ div2.addEventListener("mouseout", () => {
     paraText.innerText = "I really like your commpany products. for the first time I thought you do not have much better product in your company but now I realize no that was incorrect Thanks for your better services.";
     nameText.innerText = "croner de";
     
+    
     });
