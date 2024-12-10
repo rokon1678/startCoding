@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* navbarwork */
+
+.navDivOne{
+    height: 10vw;
+    width: 100%;
+    background-color: #5e5e5e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navDivOne h2{
+    font-size: 3vw;
+    font-family: sans-serif;
+    color: #ffffff;
+   
+}
+
+.navDivTwo{
+    height: 2vw;
+    width: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navLink{
+ text-decoration: none;
+ font-size: 1.5vw;
+ color: #ffff;
+ /* gap: 0vw 1vw; */
+ font-family: sans-serif;
+}
+
+.navLink:hover{
+    color: #f5a35f;
+}
+.navDivTwo i{
+    font-size: 3vw;
+    font-family: sans-serif;
+    color: #ffffff;
+    display: none;
+}
+
+.iconLink{
+    display: none;
+}
+
+/* media Quiary */
+
+
+
+@media (max-width: 426px) {
+
+    .navDivTwo{
+        height: 2vw;
+        width: 70%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .navDivTwo i{
+        font-size: 5vw;
+        font-family: sans-serif;
+        color: #ffffff;
+        display: block;
+        cursor: pointer;
+        /* position: relative;
+        left: 60vw; */
+    }
+     
+    .navLink{
+        text-decoration: none;
+        font-size: 1.5vw;
+        color: #ffff;
+        /* gap: 0vw 1vw; */
+        font-family: sans-serif;
+        display: none;
+       }
+
+       /* .navDivOne{
+        height: 10vw;
+        width: 100%;
+        background-color: #5e5e5e;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    } */
+
+       .navDivOne h2{
+        font-size: 3vw;
+        font-family: sans-serif;
+        color: #ffffff;
+       position: relative;
+       left: 2vw;
+    }
+
+    .iconDivOne{
+        height: 30vw;
+        width: 60vw;
+        background-color: #5e5e5e;
+        /* border: 1px solid red; */
+        position: relative;
+        left: 50vw;
+        
+        /* margin: 5vw 0vw;
+         */
+        display: none;
+        
+        text-align: center;
+    }
+
+    .iconLink{
+       display: block;
+        font-size: 5vw;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: sans-serif;
+        border-bottom: 1px solid rgb(68, 68, 68);
+        line-height: 7vw;
+       
+    }
+    .iconLink:hover{
+        color: #f5a35f;
+    }
+
+}
