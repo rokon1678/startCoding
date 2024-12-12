@@ -1,4 +1,7 @@
+
+
 *{
+    font-family: sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -53,9 +56,101 @@
     display: none;
 }
 
+
+
+
+
+/* sectionDivOne */
+
+.sectionDivOne{
+    height: 20vw;
+    width: 100%;
+    background-color: #dadada;
+    position: absolute;
+
+}
+
+.sectionDivOne h2{
+    font-size: 2vw;
+    font-family: sans-serif;
+    margin: 1rem 0.5rem;
+}
+
+.sectionDivSubOne{
+    height: 15vw;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.sectionDivsubDivOne{
+    height: 10vw;
+    width: 30%;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 0.2rem;
+}
+
+.sectionDivsubDivOne h3 {
+    font-size: 2vw;
+    text-align: center;
+    font-family: sans-serif;
+    color: #777777;
+    margin: 1rem 0rem;
+}
+.sectionDivsubDivOne p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+}
+.sectionDivsubDivTwo{
+    height: 10vw;
+    width: 33.33%;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 0.2rem;
+}
+
+.sectionDivsubDivTwo h3 {
+    font-size: 2vw;
+    text-align: center;
+    font-family: sans-serif;
+    color: #777777;
+    margin: 1rem 0rem;
+}
+.sectionDivsubDivTwo p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+}
+
+.sectionDivsubDivThree{
+    height: 10vw;
+    width: 33.33%;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 0.2rem;
+}
+
+.sectionDivsubDivThree h3 {
+    font-size: 2vw;
+    text-align: center;
+    font-family: sans-serif;
+    color: #777777;
+    margin: 1rem 0rem;
+}
+.sectionDivsubDivThree p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+}
+
+
 /* media Quiary */
-
-
 
 @media (max-width: 426px) {
 
@@ -133,4 +228,108 @@
         color: #f5a35f;
     }
 
+
+     
+    /* SectionOne */
+
+    .sectionDivOne{
+        height: 89vw;
+        width: 100%;
+        background-color: #dadada;
+        position: relative;
+    
+    }
+ 
+    .sectionDivOne h2{
+        font-size: 5vw;
+        font-family: sans-serif;
+        margin: 0rem 0rem 0rem 0rem;
+        padding: 0.5rem 0rem 0rem 0rem;
+        text-align: center;
+    }
+ 
+    .sectionDivSubOne{
+        height: 80vw;
+        width: 100%;
+        /* background-color: aqua; */
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    
+    }
+ 
+    
+ .sectionDivsubDivOne{
+    height: 30%;
+    width: 100%;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 0.2rem;
+ }
+ 
+ .sectionDivsubDivOne h3 {
+    font-size: 5vw;
+    text-align: center;
+    font-family: sans-serif;
+    color: #777777;
+    margin: 1rem 0rem;
+ }
+ .sectionDivsubDivOne p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3vw;
+ }
+ .sectionDivsubDivTwo{
+    height: 30%;
+    width: 100%;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 0.2rem;
+ }
+ 
+ .sectionDivsubDivTwo h3 {
+    font-size: 5vw;
+    text-align: center;
+    font-family: sans-serif;
+    color: #777777;
+    margin: 1rem 0rem;
+ }
+ .sectionDivsubDivTwo p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3vw;
+ }
+ 
+ .sectionDivsubDivThree{
+    height: 30%;
+    width: 100%;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 0.2rem;
+ }
+ 
+ .sectionDivsubDivThree h3 {
+    font-size: 5vw;
+    text-align: center;
+    font-family: sans-serif;
+    color: #777777;
+    margin: 1rem 0rem;
+ }
+ .sectionDivsubDivThree p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3vw;
+ }
+ 
+ 
+   
+
 }
+ 
+
+
+
+    
