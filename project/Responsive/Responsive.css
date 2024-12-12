@@ -45,13 +45,15 @@
 .navLink:hover{
     color: #f5a35f;
 }
-.navDivTwo i{
+.navDivTwo #icon{
     font-size: 3vw;
     font-family: sans-serif;
     color: #ffffff;
     display: none;
 }
-
+#iconlOfCart{
+    display: block;
+}
 .iconLink{
     display: none;
 }
@@ -162,7 +164,7 @@
         justify-content: flex-end;
         
     }
-    .navDivTwo i{
+    .navDivTwo #icon{
         font-size: 5vw;
         font-family: sans-serif;
         color: #ffffff;
