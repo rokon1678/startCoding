@@ -45,14 +45,15 @@
 .navLink:hover{
     color: #f5a35f;
 }
-.navDivTwo #icon{
+#icon{
     font-size: 3vw;
     font-family: sans-serif;
     color: #ffffff;
     display: none;
 }
-#iconlOfCart{
-    display: block;
+#cart{
+    color: #fff;
+    
 }
 .iconLink{
     display: none;
@@ -152,6 +153,20 @@
 }
 
 
+/* sectiontwo */
+
+.sectiontwo{
+    height: 60vw;
+    width: 100%;
+    background-color: #f5a35f;
+}
+
+/* .subSectionOne{
+    height: 80%;
+    width: 45%;
+    background-color: #fff;
+} */
+
 /* media Quiary */
 
 @media (max-width: 426px) {
@@ -164,7 +179,7 @@
         justify-content: flex-end;
         
     }
-    .navDivTwo #icon{
+   #icon{
         font-size: 5vw;
         font-family: sans-serif;
         color: #ffffff;
@@ -173,6 +188,11 @@
         /* position: relative;
         left: 60vw; */
     }
+
+   #cart{
+    font-size: 3vw;
+    padding: 0rem 1rem 0rem 0rem;
+   }
      
     .navLink{
         text-decoration: none;
