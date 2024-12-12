@@ -19,7 +19,7 @@
 
 }
 
-.navDivOne h2{
+.navDivOneHeader{
     font-size: 3vw;
     font-family: sans-serif;
     color: #ffffff;
@@ -73,7 +73,7 @@
 
 }
 
-.sectionDivOne h2{
+.sectionDivOneHeader{
     font-size: 2vw;
     font-family: sans-serif;
     margin: 1rem 0.5rem;
@@ -156,16 +156,46 @@
 /* sectiontwo */
 
 .sectiontwo{
-    height: 60vw;
+    height: 35vw;
     width: 100%;
     background-color: #f5a35f;
+    border: 1px solid red;
+    position: absolute;
+    top: 30vw;
+    z-index: 1;
 }
 
-/* .subSectionOne{
-    height: 80%;
+.sectionTwoHeader{
+    color: #0f0f0f;
+    font-size: 2vw;
+    text-align: center;
+    padding: 1rem 0rem ;
+ }
+.sectionTwomain{
+    height:87%;
+    width: 100%;
+   border:1px solid red;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.subSectionOne{
+    height: 90%;
     width: 45%;
     background-color: #fff;
-} */
+    /* background-image: url("background.avif");
+    object-fit: cover; */
+}
+
+.subSectiontwo{
+    height: 90%;
+    width: 45%;
+    background-color: #fff;
+    /* background-image: url("bakcground2.jpg");
+    object-fit: cover; */
+}
+
 
 /* media Quiary */
 
@@ -213,7 +243,7 @@
     
     } */
 
-       .navDivOne h2{
+       .navDivOneHeader{
         font-size: 3vw;
         font-family: sans-serif;
         color: #ffffff;
@@ -262,7 +292,7 @@
     
     }
  
-    .sectionDivOne h2{
+    .sectionDivOneHeader{
         font-size: 5vw;
         font-family: sans-serif;
         margin: 0rem 0rem 0rem 0rem;
@@ -348,6 +378,50 @@
  
  
    
+/* sectiontwo */
+
+.sectiontwo{
+    height: 87vw;
+    width: 100%;
+    background-color: #f5a35f;
+    border: 1px solid red;
+    position: absolute;
+    top: 99vw;
+    z-index: 1;
+}
+
+.sectionTwoHeader{
+    color: #0f0f0f;
+    font-size: 2vw;
+    text-align: center;
+    padding: 1rem 0rem ;
+ }
+.sectionTwomain{
+    height:87%;
+    width: 100%;
+   border:1px solid red;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+
+.subSectionOne{
+    height: 90%;
+    width: 45%;
+    background-color: #fff;
+    /* background-image: url("background.avif");
+    object-fit: cover; */
+}
+
+.subSectiontwo{
+    height: 90%;
+    width: 45%;
+    background-color: #fff;
+    /* background-image: url("bakcground2.jpg");
+    object-fit: cover; */
+}
+
 
 }
  
