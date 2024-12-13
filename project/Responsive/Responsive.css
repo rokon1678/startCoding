@@ -243,11 +243,13 @@
 
 /* subSectionTwo */
 .subSectionOneProductAreaTwo{
-    height: 95%;
+    height: 90%;
     width: 30%;
     background-color: #fff;
     margin: 0rem 1rem;
 }
+
+
 /* media Quiary */
 
 @media (max-width: 426px) {
@@ -473,17 +475,7 @@
     /* flex-wrap: wrap; */
 }
 
-.subSectiontwo{
-    height: 100%;
-    width: 100%;
-    /* background-color: #fff; */
-    background-image: url("bakcground2.jpg");
-    object-fit: cover;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
-}
+
 
 /* subSectionOneProductAreaOne */
 .subSectionOneProductAreaOne{
@@ -518,6 +510,31 @@ transform: scale(1.1,1.1);
     margin: 1rem 0rem 0.2rem 0rem;
 }
 
+/* sectionTwo */
+.subSectiontwo{
+    height: 100%;
+    width: 100%;
+    /* background-color: #fff; */
+    background-image: url("bakcground2.jpg");
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subSectionOneProductAreaTwo{
+    height: 95%;
+    width: 60%;
+   background-color: #fff;
+    margin: 1rem 1rem;
+ transform: scale(1,1);
+    transition: all 0.4s 0s linear ;
+
+}
+.subSectionOneProductAreaOne:hover{
+    transform: scale(1.1,1.1);
+    }
 }
  
 
