@@ -26,6 +26,12 @@
    
 }
 
+.mrShopLogo{
+    object-fit: contain;
+    height: 11vw;
+    width: 20vw;
+}
+
 .navDivTwo{
     height: 2vw;
     width: 70%;
@@ -162,7 +168,7 @@
     /* border: 1px solid red; */
     position: absolute;
     top: 30vw;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .sectionTwoHeader{
@@ -272,8 +278,7 @@
     font-family: sans-serif;
 }
 
-.mainPrice2{
-}
+
 .discountPrice2{
     font-size: 1.5vw;
     
@@ -281,7 +286,75 @@
     margin: 1rem 0rem 0.2rem 0rem;
 }
 
+/* footer */
 
+.footerMainDiv{
+    height: 50%;
+    width: 100%;
+    background-color: #282c34;
+    
+    position: absolute;
+    top: 65vw;
+    /* z-index: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footerSubDiv */
+
+.footerSubDiv{
+    height: 80%;
+    width: 100%;
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerSubDivOne{
+    height: 80%;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.footerSubDivTwo{
+    height: 80%;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.footerSubDivThree{
+    height: 80%;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.footerSubDivFour{
+    height: 80%;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.lastHr{
+    height: 0.5px;
+    width: 95%;
+    position: absolute;
+    top: 26.5vw;
+    /* z-index: 1; */
+    background-color: #5e5e5e;
+    
+    text-align: center;
+}
+
+.footerLastDiv{
+    height: 5vw;
+    width: 100%;
+    background-color: #282c34;
+    position: absolute;
+    top: 92vw;
+    /* z-index: 1; */
+}
 
 /* media Quiary */
 
@@ -336,7 +409,11 @@
        position: relative;
        left: 2vw;
     }
-
+    .mrShopLogo{
+        object-fit: contain;
+        height: 15vw;
+        width: 20vw;
+    }
     .iconDivOne{
         height: 30vw;
         width: 60vw;
@@ -591,8 +668,128 @@ transform: scale(1.1,1.1);
         margin: 1rem 0rem 0.2rem 0rem;
     }
     
+
+
+    /* footer */
+
+.footerMainDiv{
+    height: 150%;
+    width: 100%;
+    background-color: #282c34;
+    
+    position: absolute;
+    top: 804.7vw;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footerSubDiv */
+
+.footerSubDiv{
+    height:100%;
+    width: 100%;
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerSubDivOne{
+    height: 80%;
+    width: 80%;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 1rem 0rem;
+}
+
+.footerSubDivTwo{
+    height: 80%;
+    width: 80%;
+    border: 1px solid black;
+    margin: 1rem 0rem;
+}
+
+.footerSubDivThree{
+    height: 80%;
+    width: 80%;
+    border: 1px solid black;
+    margin: 1rem 0rem;
+}
+
+.footerSubDivFour{
+    height: 80%;
+    width: 80%;
+    border: 1px solid black;
+    margin: 1rem 0rem;
+}
+
+.lastHr{
+    height: 2px;
+    width: 95%;
+    position: absolute;
+    top: 213vw;
+    z-index: 1;
+    background-color: #5e5e5e;
+    text-align: center;
+}
+
+
+.footerLastDiv{
+    height: 17vw;
+    width: 100%;
+    background-color: #282c34;
+    position: absolute;
+    top: 1019vw;
+    z-index: 1;
+}
+
+}
+
+@media (max-width:376px) {
+    .lastHr{
+        height: 2px;
+        width: 95%;
+        position: absolute;
+        top: 242vw;
+        z-index: 1;
+        background-color: #5e5e5e;
+        text-align: center;
+    }
+
+    .footerLastDiv{
+        height: 17vw;
+        width: 100%;
+        background-color: #282c34;
+        position: absolute;
+        top: 1047vw;
+        z-index: 1;
+    }
+    
 }
  
+@media (max-width:321px) {
+    .lastHr{
+        height: 2px;
+        width: 95%;
+        position: absolute;
+        top: 284vw;
+        z-index: 1;
+        background-color: #5e5e5e;
+        text-align: center;
+    }
+
+    .footerLastDiv{
+        height: 17vw;
+        width: 100%;
+        background-color: #282c34;
+        position: absolute;
+        top: 1089vw;
+        z-index: 1;
+    }
+    
+}
 
 
 
