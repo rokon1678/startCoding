@@ -158,8 +158,8 @@
 .sectiontwo{
     height: 35vw;
     width: 100%;
-    background-color: #f5a35f;
-    border: 1px solid red;
+    /* background-color: #f5a35f; */
+    /* border: 1px solid red; */
     position: absolute;
     top: 30vw;
     z-index: 1;
@@ -174,7 +174,7 @@
 .sectionTwomain{
     height:87%;
     width: 100%;
-   border:1px solid red;
+   /* border:1px solid red; */
    display: flex;
    justify-content: space-evenly;
    align-items: center;
@@ -212,6 +212,7 @@
     margin: 0rem 1rem;
     transform: scale(1,1);
     transition: all 0.4s 0s linear ;
+    cursor: pointer;
 }
 
 .subSectionOneProductAreaOne:hover{
@@ -233,6 +234,7 @@
 }
 
 .discountPrice{
+    font-size: 1.5vw;
     font-family: sans-serif;
     margin: 1rem 0rem 0.2rem 0rem;
 }
@@ -247,7 +249,38 @@
     width: 30%;
     background-color: #fff;
     margin: 0rem 1rem;
+    transform: scale(1,1);
+    transition: all 0.4s 0s linear ;
+    cursor: pointer;
 }
+
+.subSectionOneProductAreaTwo:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+.subSectionOneProductAreaTwoImage{
+    height: 12vw;
+    width: 100%;
+    object-fit: cover;
+
+}
+/* discriptio  */
+.discription2{
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.mainPrice2{
+}
+.discountPrice2{
+    font-size: 1.5vw;
+    
+    font-family: sans-serif;
+    margin: 1rem 0rem 0.2rem 0rem;
+}
+
 
 
 /* media Quiary */
@@ -434,7 +467,7 @@
 /* sectiontwo */
 
 .sectiontwo{
-    height: 500vw;
+    height: 700vw;
     width: 100%;
     /* background-color: #f5a35f; */
     /* border: 1px solid red; */
@@ -485,6 +518,7 @@
     margin: 1rem 1rem;
  transform: scale(1,1);
     transition: all 0.4s 0s linear ;
+    cursor: pointer;
 }
 
 .subSectionOneProductAreaOne:hover{
@@ -506,13 +540,14 @@ transform: scale(1.1,1.1);
 }
 
 .discountPrice{
+    font-size: 6vw;
     font-family: sans-serif;
     margin: 1rem 0rem 0.2rem 0rem;
 }
 
 /* sectionTwo */
 .subSectiontwo{
-    height: 100%;
+    height: 180%;
     width: 100%;
     /* background-color: #fff; */
     background-image: url("bakcground2.jpg");
@@ -530,11 +565,32 @@ transform: scale(1.1,1.1);
     margin: 1rem 1rem;
  transform: scale(1,1);
     transition: all 0.4s 0s linear ;
-
+    cursor: pointer;
 }
 .subSectionOneProductAreaOne:hover{
     transform: scale(1.1,1.1);
     }
+
+    .subSectionOneProductAreaTwoImage{
+        height: 60vw;
+        width: 100%;
+        object-fit: cover;
+    
+    }
+    
+    /* discriptio  */
+    .discription2{
+        font-size: 5vw;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    
+    .discountPrice2{
+        font-size: 6vw;
+        font-family: sans-serif;
+        margin: 1rem 0rem 0.2rem 0rem;
+    }
+    
 }
  
 
