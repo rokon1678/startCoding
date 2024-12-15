@@ -1,0 +1,597 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/* navbarwork */
+
+.navDivOne{
+    height: 10vw;
+    width: 100%;
+    background-color: #5e5e5e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navDivOneHeader{
+    font-size: 3vw;
+    font-family: sans-serif;
+    color: #ffffff;
+   
+}
+
+.mrShopLogo{
+    object-fit: cover;
+    height: 10.7vw;
+    width: 20vw;
+}
+
+.navDivTwo{
+    height: 2vw;
+    width: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navLink{
+ text-decoration: none;
+ font-size: 1.5vw;
+ color: #ffff;
+ /* gap: 0vw 1vw; */
+ font-family: sans-serif;
+}
+
+.navLink:hover{
+    color: #f5a35f;
+}
+#icon{
+    font-size: 3vw;
+    font-family: sans-serif;
+    color: #ffffff;
+    display: none;
+}
+#cart{
+    color: #fff;
+    
+}
+.iconLink{
+    display: none;
+}
+
+
+
+/* footer */
+
+.footerMainDiv{
+    height: 50%;
+    width: 100%;
+    background-color: #282c34;
+    
+    position: absolute;
+    top: 40vw;
+    /* z-index: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footerSubDiv */
+
+.footerSubDiv{
+    height: 80%;
+    width: 100%;
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerSubDivOne{
+    height: 80%;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+
+.footerSubDivTwo{
+    height: 80%;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+
+.footerSubDivThree{
+    height: 80%;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+
+.footerSubDivFour{
+    height: 80%;
+    width: 20%;
+    /* border: 1px solid black; */
+}
+
+/* footerIcon */
+
+#footerIcn1{
+    font-size: 2vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 3rem;
+    cursor: pointer;
+}
+
+#footerIcn2{
+    font-size: 2vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 2rem;
+    cursor: pointer;
+}
+
+#footerIcn3{
+    font-size: 2vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 2rem;
+    cursor: pointer;
+}
+
+/* footer info area */
+
+.footerSubDvOneHeader4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2vw;
+    margin: 2rem 0rem;
+}
+
+.footerSubDvOneHeader5{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+}
+
+.navLink2{
+    text-decoration: none;
+    display: block;
+    font-size: 1.5vw;
+    text-align: center;
+    color: #fff;
+    line-height: 2vw;
+}
+.navLink2:hover{
+    color: #f5a35f;
+}
+
+/* form */
+
+.form{
+    color: #fff;
+    background-color: #282c34;
+    border: none;
+    text-align: left;
+    margin: 0.51vw 2vw;
+    cursor: pointer;
+}
+.form:hover{
+    color: #f5a35f;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+/* ::-ms-input-placeholder{
+    color: blue;
+} */
+
+
+
+.lastHr{
+    height: 0.5px;
+    width: 95%;
+    position: absolute;
+    top: 26.3vw;
+    /* z-index: 1; */
+    background-color: #5e5e5e;
+    
+    text-align: center;
+}
+
+.footerLastDiv{
+    height: 5vw;
+    width: 100%;
+    background-color: #282c34;
+    position: relative;
+    top: 26.5vw;
+    /* z-index: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+@media (max-width: 426px) {
+
+    .navDivTwo{
+        height: 2vw;
+        width: 70%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+   #icon{
+        font-size: 5vw;
+        font-family: sans-serif;
+        color: #ffffff;
+        display: block;
+        cursor: pointer;
+        /* position: relative;
+        left: 60vw; */
+    }
+
+   #cart{
+    font-size: 3vw;
+    padding: 0rem 1rem 0rem 0rem;
+   }
+     
+    .navLink{
+        text-decoration: none;
+        font-size: 1.5vw;
+        color: #ffff;
+        /* gap: 0vw 1vw; */
+        font-family: sans-serif;
+        display: none;
+       }
+
+       /* .navDivOne{
+        height: 10vw;
+        width: 100%;
+        background-color: #5e5e5e;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    } */
+
+       .navDivOneHeader{
+        font-size: 3vw;
+        font-family: sans-serif;
+        color: #ffffff;
+       position: relative;
+       left: 2vw;
+    }
+    .mrShopLogo{
+        object-fit: cover;
+        height: 10vw;
+        width: 20vw;
+    }
+    .iconDivOne{
+        height: 30vw;
+        width: 60vw;
+        background-color: #5e5e5e;
+        /* border: 1px solid red; */
+        position: relative;
+        left: 50vw;
+        
+        /* margin: 5vw 0vw;
+         */
+        display: none;
+        
+        text-align: center;
+    }
+
+    .iconLink{
+       display: block;
+        font-size: 5vw;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: sans-serif;
+        border-bottom: 1px solid rgb(68, 68, 68);
+        line-height: 7vw;
+       
+    }
+    .iconLink:hover{
+        color: #f5a35f;
+    }
+
+
+    
+    /* footer */
+
+.footerMainDiv{
+    height: 150%;
+    width: 100%;
+    background-color: #282c34;
+    
+    position: absolute;
+    top: 69.7vw;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footerSubDiv */
+
+.footerSubDiv{
+    height:100%;
+    width: 100%;
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerSubDivOne{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin: 1rem 0rem;
+}
+
+.footerSubDivTwo{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: 1rem 0rem;
+}
+
+.footerSubDivThree{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: 1rem 0rem;
+}
+
+.footerSubDivFour{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: 1rem 0rem;
+}
+
+
+/* footerIcon */
+
+#footerIcn1{
+    font-size: 5vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 6rem;
+    cursor: pointer;
+}
+
+#footerIcn2{
+    font-size: 5vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 2rem;
+    cursor: pointer;
+}
+
+#footerIcn3{
+    font-size: 5vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 2rem;
+    cursor: pointer;
+}
+
+/* footer info area */
+
+.footerSubDvOneHeader4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 5vw;
+    margin: 2rem 0rem;
+}
+
+.footerSubDvOneHeader5{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-size: 4vw;
+}
+
+.navLink2{
+    text-decoration: none;
+    display: block;
+    font-size: 4vw;
+    text-align: center;
+    color: #fff;
+    line-height: 5vw;
+}
+.navLink2:hover{
+    color: #f5a35f;
+}
+
+/* form */
+
+.form{
+    color: #fff;
+    background-color: #282c34;
+    border: none;
+    text-align: left;
+    font-size: 4vw;
+    margin: 0.51vw 15vw;
+    cursor: pointer;
+}
+.form:hover{
+    color: #f5a35f;
+}
+
+
+.lastHr{
+    height: 2px;
+    width: 95%;
+    position: absolute;
+    top: 213vw;
+    z-index: 1;
+    background-color: #5e5e5e;
+    text-align: center;
+}
+
+
+.footerLastDiv{
+    height: 17vw;
+    width: 100%;
+    background-color: #282c34;
+    position: absolute;
+    top: 283vw;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.copyright{
+    color: #fff;
+    font-size: 3vw;
+}
+    
+
+
+}
+
+
+@media (max-width:376px) {
+    .lastHr{
+        height: 2px;
+        width: 95%;
+        position: absolute;
+        top: 242vw;
+        /* z-index: 1; */
+        background-color: #5e5e5e;
+        text-align: center;
+    }
+
+    .footerLastDiv{
+        height: 17vw;
+        width: 100%;
+        background-color: #282c34;
+        position: absolute;
+        top: 312vw;
+        /* z-index: 1; */
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .copyright{
+        color: #fff;
+        font-size: 3vw;
+    }
+    
+    #footerIcn1{
+        font-size: 5vw;
+        color: #f8f8f8;
+        margin: 0rem 0rem 0rem 5rem;
+        cursor: pointer;
+    }
+
+}
+ 
+@media (max-width:321px) {
+    .lastHr{
+        height: 2px;
+        width: 95%;
+        position: absolute;
+        top: 284vw;
+        z-index: 1;
+        background-color: #5e5e5e;
+        text-align: center;
+    }
+
+    .footerLastDiv{
+        height: 17vw;
+        width: 100%;
+        background-color: #282c34;
+        position: absolute;
+        top: 354vw;
+        z-index: 1;
+    }
+    
+    #footerIcn1{
+        font-size: 5vw;
+        color: #f8f8f8;
+        margin: 0rem 0rem 0rem 4rem;
+        cursor: pointer;
+    }
+}
+
+
+/* cartarea */
+
+.addToCart1containertDiv{
+    height: 30vw;
+    width: 100%;
+    background-color: rgb(228, 40, 11);
+    /* margin: 1rem 0rem; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.addToCartSubContainerDiv1{
+    height: 20vw;
+    width: 65%;
+    background-color: #dadada;
+}
+
+.addToCartSubContainerDiv2{
+    height: 20vw;
+    width: 25%;
+    background-color: #dadada;
+}
+
+/* .cartImageDiv{
+    height: 15vw;
+    width: 25%;
+    background-color: #f5a35f;
+    object-fit: contain;
+}
+
+.cartAreaImage{
+    height: 10vw;
+    width: 10%;
+    object-fit: cover;
+} */
+
+
+@media (max-width: 426px) {
+        
+/* cartarea */
+
+.addToCart1containertDiv{
+    height: 60vw;
+    width: 100%;
+    background-color: rgb(228, 40, 11);
+    /* margin: 1rem 0rem; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addToCartSubContainerDiv1{
+    height: 25vw;
+    width: 100%;
+    background-color: #dadada;
+}
+
+.addToCartSubContainerDiv2{
+    height: 15vw;
+    width: 50%;
+    background-color: #dadada;
+}
+}
