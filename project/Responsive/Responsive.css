@@ -245,6 +245,15 @@
     margin: 1rem 0rem 0.2rem 0rem;
 }
 
+.btn{
+    background-color: #f5a35f;
+    color: #fff;
+    margin: 1vw 1vw;
+    border: 1px solid #f5a35f;
+    border-radius: 2px;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
 
 
 
@@ -315,25 +324,48 @@
 .footerSubDivOne{
     height: 80%;
     width: 20%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .footerSubDivTwo{
     height: 80%;
     width: 20%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .footerSubDivThree{
     height: 80%;
     width: 20%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .footerSubDivFour{
     height: 80%;
     width: 20%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+/* footerIcon */
+
+#footerIcn1{
+    font-size: 2vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 3rem;
+    cursor: pointer;
+}
+
+#footerIcn2{
+    font-size: 2vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 2rem;
+    cursor: pointer;
+}
+
+#footerIcn3{
+    font-size: 2vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 2rem;
+    cursor: pointer;
 }
 
 /* footer info area */
@@ -369,13 +401,21 @@
     color: #fff;
     background-color: #282c34;
     border: none;
-    text-align: center;
-    margin: 0.51vw 1vw;
+    text-align: left;
+    margin: 0.51vw 2vw;
     cursor: pointer;
 }
 .form:hover{
     color: #f5a35f;
 }
+
+::placeholder{
+    color: #fff;
+}
+
+/* ::-ms-input-placeholder{
+    color: blue;
+} */
 
 
 
@@ -383,7 +423,7 @@
     height: 0.5px;
     width: 95%;
     position: absolute;
-    top: 26.5vw;
+    top: 22.3vw;
     /* z-index: 1; */
     background-color: #5e5e5e;
     
@@ -394,8 +434,8 @@
     height: 5vw;
     width: 100%;
     background-color: #282c34;
-    position: absolute;
-    top: 92vw;
+    position: relative;
+    top: 77.5vw;
     /* z-index: 1; */
     display: flex;
     justify-content: center;
@@ -404,7 +444,7 @@
 
 .copyright{
     color: #fff;
-    
+    font-weight: 400;
 }
 
 /* media Quiary */
@@ -673,6 +713,17 @@ transform: scale(1.1,1.1);
     margin: 1rem 0rem 0.2rem 0rem;
 }
 
+.btn{
+    background-color: #f5a35f;
+    color: #fff;
+    margin: 1vw 1vw;
+    border: 1px solid #f5a35f;
+    border-radius: 2px;
+    font-size: 5vw;
+    cursor: pointer;
+}
+
+
 /* sectionTwo */
 .subSectiontwo{
     height: 180%;
@@ -751,30 +802,98 @@ transform: scale(1.1,1.1);
 .footerSubDivOne{
     height: 80%;
     width: 80%;
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
     margin: 1rem 0rem;
 }
 
 .footerSubDivTwo{
     height: 80%;
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 1rem 0rem;
 }
 
 .footerSubDivThree{
     height: 80%;
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 1rem 0rem;
 }
 
 .footerSubDivFour{
     height: 80%;
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 1rem 0rem;
 }
+
+
+/* footerIcon */
+
+#footerIcn1{
+    font-size: 5vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 6rem;
+    cursor: pointer;
+}
+
+#footerIcn2{
+    font-size: 5vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 2rem;
+    cursor: pointer;
+}
+
+#footerIcn3{
+    font-size: 5vw;
+    color: #f8f8f8;
+    margin: 0rem 0rem 0rem 2rem;
+    cursor: pointer;
+}
+
+/* footer info area */
+
+.footerSubDvOneHeader4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 5vw;
+    margin: 2rem 0rem;
+}
+
+.footerSubDvOneHeader5{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-size: 4vw;
+}
+
+.navLink2{
+    text-decoration: none;
+    display: block;
+    font-size: 4vw;
+    text-align: center;
+    color: #fff;
+    line-height: 5vw;
+}
+.navLink2:hover{
+    color: #f5a35f;
+}
+
+/* form */
+
+.form{
+    color: #fff;
+    background-color: #282c34;
+    border: none;
+    text-align: left;
+    font-size: 4vw;
+    margin: 0.51vw 15vw;
+    cursor: pointer;
+}
+.form:hover{
+    color: #f5a35f;
+}
+
 
 .lastHr{
     height: 2px;
@@ -837,6 +956,12 @@ transform: scale(1.1,1.1);
         font-size: 3vw;
     }
     
+    #footerIcn1{
+        font-size: 5vw;
+        color: #f8f8f8;
+        margin: 0rem 0rem 0rem 5rem;
+        cursor: pointer;
+    }
 
 }
  
@@ -860,6 +985,12 @@ transform: scale(1.1,1.1);
         z-index: 1;
     }
     
+    #footerIcn1{
+        font-size: 5vw;
+        color: #f8f8f8;
+        margin: 0rem 0rem 0rem 4rem;
+        cursor: pointer;
+    }
 }
 
 
