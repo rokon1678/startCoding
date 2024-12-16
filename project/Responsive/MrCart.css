@@ -280,7 +280,7 @@
         width: 60vw;
         background-color: #5e5e5e;
         /* border: 1px solid red; */
-        position: relative;
+        position: absolute;
         left: 50vw;
         
         /* margin: 5vw 0vw;
@@ -527,6 +527,33 @@
         margin: 0rem 0rem 0rem 4rem;
         cursor: pointer;
     }
+    .description{
+    
+        font-size: 4vw;
+        margin: 0rem 0rem;
+     }
+    .price{
+        position: relative;
+        top: 7vw;
+        right: 70vw;
+        font-size: 2vw;
+        font-weight: 600;
+}
+
+/* summary */
+
+.summary{
+    margin: 0rem 0rem 0rem 0rem;
+    font-size: 2vw;
+}
+
+.yourTotal{
+    font-size: 1vw;
+    font-weight: 300;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+
 }
 
 
@@ -535,7 +562,7 @@
 .addToCart1containertDiv{
     height: 30vw;
     width: 100%;
-    background-color: rgb(228, 40, 11);
+    background-color: rgb(255, 255, 255);
     /* margin: 1rem 0rem; */
     display: flex;
     justify-content: space-evenly;
@@ -546,6 +573,14 @@
     height: 20vw;
     width: 65%;
     background-color: #dadada;
+    /* overflow: hidden; */
+}
+/* addtocartaeadiv */
+
+.addToCartareaDiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .addToCartSubContainerDiv2{
@@ -554,19 +589,52 @@
     background-color: #dadada;
 }
 
-/* .cartImageDiv{
-    height: 15vw;
-    width: 25%;
-    background-color: #f5a35f;
-    object-fit: contain;
+.cartImageDiv{
+   height: 60%;
+   width: 20%;
+   border: 1px solid black;
+   display: flex;
+
 }
 
-.cartAreaImage{
-    height: 10vw;
-    width: 10%;
+.cartImage{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-} */
+}
+ 
+/* discription */
 
+.description{
+    
+   font-size: 1.2vw;
+   margin: 1rem 0rem;
+}
+
+.cartIcon1{
+    font-size: 2vw;
+    color: black;
+  
+}
+
+.price{
+        position: relative;
+        top: 2.8vw;
+        right: 51vw;
+        font-size: 1vw;
+        font-weight: 600;
+}
+
+/* summary */
+
+.summary{
+    margin: 0rem 0rem 1rem 1rem;
+}
+
+.yourTotal{
+    font-weight: 600;
+    margin: 0rem 0rem 1rem 1rem;
+}
 
 @media (max-width: 426px) {
         
@@ -575,7 +643,7 @@
 .addToCart1containertDiv{
     height: 60vw;
     width: 100%;
-    background-color: rgb(228, 40, 11);
+    background-color: rgb(255, 255, 255);
     /* margin: 1rem 0rem; */
     display: flex;
     justify-content: space-evenly;
@@ -594,4 +662,77 @@
     width: 50%;
     background-color: #dadada;
 }
+
+
+
+/* addtocartaeadiv */
+
+.addToCartareaDiv2{
+    display: flex;
+}
+
+.addToCartSubContainerDiv2{
+    height: 20vw;
+    width: 25%;
+    background-color: #dadada;
+}
+
+.cartImageDiv{
+   height: 60%;
+   width: 20%;
+   border: 1px solid black;
+   display: flex;
+
+}
+
+.cartImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ 
+/* discription */
+
+.description{
+    
+   font-size: 2vw;
+   margin: 1rem 0rem;
+}
+
+.cartIcon1{
+    font-size: 2vw;
+    color: black;
+  
+}
+
+.price{
+        position: relative;
+        top: 5vw;
+        right: 79vw;
+        font-size: 2vw;
+}
+
+.summary{
+    margin: 0rem 0rem 0.1rem 0.1rem;
+    font-size: 3vw;
+}
+
+.yourTotal{
+    font-size: 2vw;
+    font-weight: 500;
+    margin: 0rem 0rem 0.2rem 0.2rem;
+}
+}
+
+@media (max-width:769px) {
+    .summary{
+        margin: 0rem 0rem 1rem 1rem;
+        font-size: 3vw;
+    }
+    
+    .yourTotal{
+        font-size: 2vw;
+        font-weight: 600;
+        margin: 0rem 0rem 0.6rem 0.1rem;
+    }
 }

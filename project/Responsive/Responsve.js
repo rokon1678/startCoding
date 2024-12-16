@@ -13,3 +13,15 @@ icon.addEventListener("click", () => {
 
 });
 
+
+const button = document.querySelector("#btn");
+const dinamicNumber = document.querySelector("#dinamicNumber");
+let proved = 0;
+
+function btn () {
+    
+        proved +=1;
+       let notMainCount = dinamicNumber.innerText = proved;
+      
+  
+};
