@@ -1,0 +1,46 @@
+.containerDiv{
+    height: 5vw;
+    width: 50%;
+    background-color: rgb(86, 86, 86);
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerDiv i {
+    font-size: 2rem;
+    color: #fff;
+    padding: 22px 50px;
+    cursor: pointer;
+}
+
+.containerDiv i:hover{
+    background-color: black;
+}
+
+
+/* again */
+
+.containerDiv2{
+    height: 100%;
+    width: 5vw;
+    position: absolute;
+    background-color: rgb(86, 86, 86);
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerDiv2 i {
+    font-size: 2rem;
+    color: #fff;
+    padding:  50px 22px;
+    cursor: pointer;
+}
+
+.containerDiv2 i:hover{
+    background-color: black;
+}

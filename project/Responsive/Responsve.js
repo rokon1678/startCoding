@@ -24,7 +24,7 @@ let proved = 0;
 let manage = 0;
 
 subSectionOneProductAreaOne.forEach(juj => {
-    console.log(subSectionOneProductAreaOne);
+    // console.log(subSectionOneProductAreaOne);
     btn.addEventListener("click", () => {
         proved += 1;
         dinamicNumber.innerText = proved;
