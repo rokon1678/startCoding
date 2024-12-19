@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+
+.containerDiv{
+    height: 5vw;
+    width: 50%;
+    background-color: beige;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.infoDiv1{
+    height: 5vw;
+    width: 50%;
+   position: relative;
+   left: 380px;
+   top: -100px;
+   border: 1px solid black;
+  display: none;
+}
+
+.infoDiv2{
+    height: 5vw;
+    width: 50%;
+   position: relative;
+   left: 380px;
+   top: -100px;
+   border: 1px solid black;
+  display: none;
+}
+
+.infoDiv3{
+    height: 5vw;
+    width: 50%;
+   position: relative;
+   left: 380px;
+   top: -100px;
+   border: 1px solid black;
+  display: none;
+}
