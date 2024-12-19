@@ -1,0 +1,74 @@
+.mainContainer{
+    height: 5vw;
+    width: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.subcontianerDiv{
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainInfoDiv1{
+    height: 10vw;
+    width: 100%;
+    border: 1px solid rgb(253, 3, 3);
+    display: none;
+}
+
+.mainInfoDiv2{
+    height: 10vw;
+    width: 100%;
+    border: 1px solid green;
+    display: none;
+}
+
+.mainInfoDiv3{
+    height: 10vw;
+    width: 100%;
+    border: 1px solid blue;
+    display: none;
+}
+
+.mainInfoDiv4{
+    height: 10vw;
+    width: 100%;
+    border: 1px solid rgb(228, 74, 74);
+    display: none;
+}
+
+.Name1{
+    height: 5vw;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name2{
+    height: 5vw;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name3{
+    height: 5vw;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name4{
+    height: 5vw;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
