@@ -7,18 +7,22 @@ btn.addEventListener("click", () => {
     containerDiv.animate([
         {
          
-            transform : "scaleX(0)",
+            transform : "translate(-100%)",
 
         },
         {
-            transform: "scaleX(1)",
+            transform: "translate(0%)",
         },
     ],{
-        duration:3000,
-        direction:'right',
-    })
+        duration:500,
+        direction:"normal",
+    });
 });
 
 icon.addEventListener("click", () => {
+    
     containerDiv.style.display = "none";
+   
+
+   
 });
