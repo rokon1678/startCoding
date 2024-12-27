@@ -16,11 +16,11 @@
 
 }
 
-#icon1{
+#previous{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+    color: #ffffff;
     position: absolute;
     top: 18vw;
     left: 15.5vw;
@@ -29,15 +29,15 @@
     cursor: pointer;
 }
 
-#icon1:hover{
+#previous:hover{
     background-color: rgba(0, 0, 0, 0.484);
 }
 
-#icon2{
+#Next{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+    color: #ffffff;
     position: absolute;
     top: 18vw;
     right: 15.5vw;
@@ -46,7 +46,7 @@
     cursor: pointer;
 }
 
-#icon2:hover{
+#Next:hover{
     background-color: rgba(0, 0, 0, 0.484);
 }
 
@@ -66,39 +66,9 @@
 
 }
 
-#icon1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    position: absolute;
-    top: 18vw;
-    left: 15.5vw;
-    z-index: 1;
-    padding: 1rem 1rem;
-    cursor: pointer;
-}
 
-#icon1:hover{
-    background-color: rgba(0, 0, 0, 0.484);
-}
 
-#icon2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    position: absolute;
-    top: 18vw;
-    right: 15.5vw;
-    z-index: 1;
-    padding: 1rem 1rem;
-    cursor: pointer;
-}
 
-#icon2:hover{
-    background-color: rgba(0, 0, 0, 0.484);
-}
 
 /* div3 */
 
@@ -116,39 +86,8 @@
 
 }
 
-#icon1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    position: absolute;
-    top: 18vw;
-    left: 15.5vw;
-    z-index: 1;
-    padding: 1rem 1rem;
-    cursor: pointer;
-}
 
-#icon1:hover{
-    background-color: rgba(0, 0, 0, 0.484);
-}
 
-#icon2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    position: absolute;
-    top: 18vw;
-    right: 15.5vw;
-    z-index: 1;
-    padding: 1rem 1rem;
-    cursor: pointer;
-}
-
-#icon2:hover{
-    background-color: rgba(0, 0, 0, 0.484);
-}
 
 /* div4 */
 
@@ -166,46 +105,15 @@
 
 }
 
-#icon1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    position: absolute;
-    top: 18vw;
-    left: 15.5vw;
-    z-index: 1;
-    padding: 1rem 1rem;
-    cursor: pointer;
-}
 
-#icon1:hover{
-    background-color: rgba(0, 0, 0, 0.484);
-}
 
-#icon2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    position: absolute;
-    top: 18vw;
-    right: 15.5vw;
-    z-index: 1;
-    padding: 1rem 1rem;
-    cursor: pointer;
-}
-
-#icon2:hover{
-    background-color: rgba(0, 0, 0, 0.484);
-}
 
 /* div5 */
 
 .containerDiv5{
     height: 30vw;
     width: 70%;
-    border: 1px solid black;
+    border: 1px solid rgb(58, 57, 57);
     margin: 100px auto;
     display: none;
 }
@@ -216,39 +124,8 @@
 
 }
 
-#icon1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    position: absolute;
-    top: 18vw;
-    left: 15.5vw;
-    z-index: 1;
-    padding: 1rem 1rem;
-    cursor: pointer;
-}
 
-#icon1:hover{
-    background-color: rgba(0, 0, 0, 0.484);
-}
 
-#icon2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-    position: absolute;
-    top: 18vw;
-    right: 15.5vw;
-    z-index: 1;
-    padding: 1rem 1rem;
-    cursor: pointer;
-}
-
-#icon2:hover{
-    background-color: rgba(0, 0, 0, 0.484);
-}
 
 
 .dotDiv{
@@ -258,6 +135,7 @@
     /* display: flex;
     align-items: center;
     justify-content: center; */
+    margin-top: -5rem;
 }
 
 .span1{
@@ -267,7 +145,7 @@
     position: absolute;
     left: 40vw;
     border-radius: 50%;
-    
+    background-color: rgb(58, 57, 57);
 }
 
 .span2{
