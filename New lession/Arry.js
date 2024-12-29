@@ -1,1 +1,12 @@
- let arry = [0,1,2,3,4,5,6,7,8,9]
+ let arry = ["Rony","Roky","Rose","Risa","Raha","Rani"];
+ let btn = document.querySelector("button");
+arry.forEach(function(value) {
+
+    let calculate = value + calculate;
+    btn.addEventListener("click", () => {
+       console.log(calculate);
+     
+    });
+    
+});
+
