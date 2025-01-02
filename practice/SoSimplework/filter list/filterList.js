@@ -1,4 +1,4 @@
-const input = document.querySelector(".input");
+let input = document.querySelector(".input");
 const search = document.querySelector("#search");
 input.addEventListener("click", () => {
     search.style.opacity = "0.1";
@@ -7,27 +7,23 @@ input.addEventListener("click", () => {
 
 
 
-// let val = area.innerText;
-// let valu =input.value ;
-// console.log(valu);
-input.addEventListener("keyup", () => {
-    console.log(input.value);
-});
 
-const h2 = document.querySelectorAll("h2");
-const area = document.querySelectorAll(".area");
-area.forEach(function (value) {
-    // fillter();
-    console.log(h2.innerText);
-});
+   input.addEventListener("keyup", () => {
+    
+    filiter = input.value.toUpperCase();
+    ul = document.querySelector(".ul");
+    li = document.getElementsByTagName("li");
+   
+   for (i = 0; i < li.length; i++){
+        a = li[i].getElementsByTagName("a")[0];
+       textValue = a.textContent || a.innerText;
+       if (textValue.toUpperCase().indexOf(filiter) > -1){
+           li[i].style.display = "";
+       }else{
+           li[i].style.display = "none";
+       }
+   }
+   
+   }) ;
 
-// function fillter () {
-//     if(valu !==val){
-//         area.value;
-//         console.log("i am working");
-//     }else{
-//         console.log("I am not working");
-//     }
-// };
-
-
+ 
