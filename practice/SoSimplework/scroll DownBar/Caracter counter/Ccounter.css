@@ -8,6 +8,30 @@
 .containerDiv{
     height: 30vw;
     width: 30vw;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 200px auto;
+    background-color: aquamarine;
+
 }
+
+#textarea{
+    height: 10vw;
+    width: 30vw;
+    font-size: 1rem;
+
+}
+
+#para{
+    display: inline;
+   /* margin: 0% 10%; */
+}
+
+#para2{
+    display: inline;
+    /* margin: 0% 25%; */
+}
+span{
+  margin: 0% 15%;
+   
+}
+
