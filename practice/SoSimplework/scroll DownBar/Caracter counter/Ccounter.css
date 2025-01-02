@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.containerDiv{
+    height: 30vw;
+    width: 30vw;
+    border: 1px solid black;
+    margin: 200px auto;
+}
